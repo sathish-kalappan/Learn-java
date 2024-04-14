@@ -1,0 +1,12 @@
+package org.oddeven;
+
+public class loop {
+	
+
+	public static void main(String[] args) {
+		for(long i=1; i<=1000000000000l; i++) {
+			System.out.println(i);
+		}
+	}
+
+}

@@ -1,0 +1,9 @@
+package org.oddeven;
+
+public class loop {
+	
+	for(i=0; i<1000; i++) {
+		System.out.println(i);
+	}
+
+}

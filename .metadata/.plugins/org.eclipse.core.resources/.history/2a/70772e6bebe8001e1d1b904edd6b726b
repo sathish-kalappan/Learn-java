@@ -1,0 +1,31 @@
+package org.str;
+
+public class Sample {
+	public static void main(String[] args) {
+		  String string1 = "welcometojava";
+	        String string2 = "SeleniumAutomationtool";
+	        String string3 = "theatre";
+	        String string4 = "j a v a p r o g r a m";
+	        String string5 = "9876543210";
+
+	        // Finding the last index of 'e' in String 1
+	        int lastIndex1 = string1.lastIndexOf('e');
+	        System.out.println("Last index of 'e' in String 1: " + lastIndex1);
+
+	        // Finding the index of 'm' in String 2
+	        int index2 = string2.indexOf('m');
+	        System.out.println("Index of 'm' in String 2: " + index2);
+
+	        // Finding the index of 't' in String 3
+	        int index3 = string3.indexOf('t');
+	        System.out.println("Index of 't' in String 3: " + index3);
+
+	  // Finding the last index of ' ' (empty space) in String 4
+	  int lastIndex4 = string4.lastIndexOf(' ');
+	 System.out.println("Last index of ' ' (empty space) in String 4: " + lastIndex4);
+
+	        // Finding the index of '8' in String 5
+	        int index5 = string5.indexOf('8');
+	        System.out.println("Index of '8' in String 5: " + index5);
+	    }
+	}

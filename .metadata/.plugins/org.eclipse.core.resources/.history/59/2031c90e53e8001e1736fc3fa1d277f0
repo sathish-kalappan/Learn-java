@@ -1,0 +1,28 @@
+package org.test;
+import java.util.Scanner;
+
+public class Hello {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number to reverse: ");
+        int number = scanner.nextInt();
+        
+        int reversedNumber = reverse(number);
+        
+        System.out.println("Reversed number: " + reversedNumber);
+        
+        scanner.close();
+    }
+    
+    public static int reverse(int n) {
+        int reversedNumber = 0;
+        
+        while (n != 0) {
+            int digit = n % 10;
+            reversedNumber = reversedNumber * 10 + digit;
+            n /= 10;
+        }
+        
+        return reversedNumber;
+    }
+}
